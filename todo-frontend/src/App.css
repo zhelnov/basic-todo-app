@@ -1,0 +1,107 @@
+.App {
+  width: 340px;
+  height: 450px;
+  padding: 35px 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.App-logo {
+  pointer-events: none;
+  width: 40px;
+}
+
+header {
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1f2a4b;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  margin: 20px 0;
+  display: block;
+  border: 0;
+  border-bottom: 1px solid #d7dae0;
+  color: #1f2a4b;
+  font-size: 16px;
+  padding-bottom: 10px;
+  outline: none !important;
+}
+
+input[type=text]::placeholder, input[type=password]::placeholder {
+  color: #d7dae0;
+}
+
+nput[type=text]:focus, input[type=password]:focus { 
+  outline: none !important;
+  box-shadow: 0;
+}
+
+.gray-link {
+  color: #1f2a4b;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hint {
+  color: #a1a4ad;
+  font-size: 16px;
+  margin: 6px 0;
+  margin-bottom: 30px;
+}
+
+.action-button {
+  color:white;
+  width: 330px;
+  height: 36px;
+  margin: 52px 0 0;
+  padding: 8px 134px 8px 135px;
+  border-radius: 4px;
+  border: solid 1px #4a77e5;
+  background-color: #4a77e5;
+}
+
+.todo-item {
+  color: #1f2a4b;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.todo-item input {
+  margin-right: 10px;
+}
+
+.remove-button {
+  float: right;
+  margin-top: 8px;
+}
+
+.gray-link-logout {
+  color: #1f2a4b;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
